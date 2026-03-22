@@ -1,2 +1,8 @@
 Name: Screens
 Type: ScreensCategoryFolder
+Children:
+- Name: Main
+  Id: g=abbebd6a773d82a8a2f45d9ece8293a2
+  Supertype: Screen
+  ReferenceType: HasComponent
+- File: Types/Types.yaml

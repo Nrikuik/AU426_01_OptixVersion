@@ -236,7 +236,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 1024.0
+    Value: 800.0
   - Name: Caption
     Type: BaseDataVariableType
     DataType: String
@@ -300,7 +300,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 100.0
+        Value: 90.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -343,7 +343,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 100.0
+        Value: 90.0
       - Name: Visible
         Type: BaseDataVariableType
         DataType: Boolean
@@ -360,6 +360,7 @@ Children:
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
+        Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Main"
         Children:
         - Name: Kind
           Type: PropertyType
