@@ -4,6 +4,8 @@ using FTOptix.UI;
 using FTOptix.NetLogic;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class TimeShelveLogic : BaseNetLogic

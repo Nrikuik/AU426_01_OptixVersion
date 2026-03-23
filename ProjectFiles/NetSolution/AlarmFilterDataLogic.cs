@@ -7,6 +7,8 @@ using System.Collections.Generic;
 using UAManagedCore;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class AlarmFilterDataLogic : BaseNetLogic

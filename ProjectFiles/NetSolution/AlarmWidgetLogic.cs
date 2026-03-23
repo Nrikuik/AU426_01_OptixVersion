@@ -8,6 +8,8 @@ using System.Linq.Expressions;
 using UAManagedCore;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 using static AlarmFilterDataLogic;
 #endregion
 

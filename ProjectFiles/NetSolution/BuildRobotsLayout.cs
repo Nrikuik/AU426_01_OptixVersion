@@ -7,6 +7,8 @@ using FTOptix.HMIProject;
 using FTOptix.NetLogic;
 using FTOptix.UI;
 using UAManagedCore;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

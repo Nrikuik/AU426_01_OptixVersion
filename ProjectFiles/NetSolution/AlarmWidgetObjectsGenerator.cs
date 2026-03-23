@@ -9,6 +9,8 @@ using System.Linq;
 using UAManagedCore;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 using static AlarmFilterDataLogic;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
