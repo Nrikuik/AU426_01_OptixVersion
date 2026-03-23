@@ -10,6 +10,8 @@ using System.Collections.Generic;
 using System.Xml.Linq;
 using FTOptix.Alarm;
 using FTOptix.SerialPort;
+using FTOptix.RAEtherNetIP;
+using FTOptix.CommunicationDriver;
 #endregion
 
 public class AlarmFilterEditModelLogic : BaseNetLogic

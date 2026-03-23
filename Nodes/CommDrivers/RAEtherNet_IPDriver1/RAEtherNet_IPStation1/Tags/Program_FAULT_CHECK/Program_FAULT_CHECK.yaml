@@ -1,0 +1,19 @@
+Name: 'Program:FAULT_CHECK'
+Type: FolderType
+Children:
+- Name: pFAULT_BIT_0
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:FAULT_CHECK.pFAULT_BIT_0"
+- Name: pMINOR_FAULT_BITS
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:FAULT_CHECK.pMINOR_FAULT_BITS"

@@ -1,0 +1,30 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_AU426_01_BASE_100_R1/Program_AU426_01_BASE_100_R1.yaml
+- File: Program_AU426_01_BASE_100_R2/Program_AU426_01_BASE_100_R2.yaml
+- File: Program_AU426_01_BASE_100_STA_10/Program_AU426_01_BASE_100_STA_10.yaml
+- File: Program_AU426_01_BASE_110_R1/Program_AU426_01_BASE_110_R1.yaml
+- File: Program_AU426_01_BASE_110_RS_1/Program_AU426_01_BASE_110_RS_1.yaml
+- File: Program_AU426_01_BASE_110_STA_10/Program_AU426_01_BASE_110_STA_10.yaml
+- File: Program_AU426_01_BASE_110_STA_20/Program_AU426_01_BASE_110_STA_20.yaml
+- File: Program_AU426_01_BASE_110_STA_30/Program_AU426_01_BASE_110_STA_30.yaml
+- File: Program_AU426_01_BASE_80_R1/Program_AU426_01_BASE_80_R1.yaml
+- File: Program_AU426_01_BASE_80_R2/Program_AU426_01_BASE_80_R2.yaml
+- File: Program_AU426_01_BASE_80_R3/Program_AU426_01_BASE_80_R3.yaml
+- File: Program_AU426_01_BASE_80_STA_10/Program_AU426_01_BASE_80_STA_10.yaml
+- File: Program_AU426_01_BASE_80_STA_20/Program_AU426_01_BASE_80_STA_20.yaml
+- File: Program_AU426_01_BASE_90_R1/Program_AU426_01_BASE_90_R1.yaml
+- File: Program_AU426_01_CELL1/Program_AU426_01_CELL1.yaml
+- File: Program_AU426_01_FLTS_CELL1/Program_AU426_01_FLTS_CELL1.yaml
+- File: Program_AU426_01_STY_OPT_CELL1/Program_AU426_01_STY_OPT_CELL1.yaml
+- File: Program_BASE100/Program_BASE100.yaml
+- File: Program_BASE110/Program_BASE110.yaml
+- File: Program_BASE80/Program_BASE80.yaml
+- File: Program_BASE90/Program_BASE90.yaml
+- File: Program_CELL_1/Program_CELL_1.yaml
+- File: Program_FAULT_CHECK/Program_FAULT_CHECK.yaml
+- File: Program_NETWORKS/Program_NETWORKS.yaml
+- File: Program_SAFETY/Program_SAFETY.yaml
+- File: Program_is_prgWeld_Monitor/Program_is_prgWeld_Monitor.yaml
