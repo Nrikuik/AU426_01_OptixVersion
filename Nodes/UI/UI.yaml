@@ -18382,6 +18382,11 @@ Children:
       DataType: BaseDataType
       ModellingRule: Optional
       Value: {"Type":1,"Body":true}
+    - Name: Style
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Accent"
   - Name: LblCellName
     Type: Label
     Children:
