@@ -38,6 +38,9 @@ Children:
       Value: "/Types/ObjectTypes/BaseObjectType/UserType"
   - Name: Sessions
     Type: BaseObjectType
+  - Name: WebBrowserLocalContentPolicy
+    Type: BaseDataVariableType
+    DataType: WebBrowserLocalContentPolicyEnum
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
@@ -126,6 +129,10 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: LocalMessageDisplay
       Type: PanelLoader
       Children:

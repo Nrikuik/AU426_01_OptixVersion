@@ -492,7 +492,7 @@ Children:
   - Name: ScreenColor
     Type: BaseDataVariableType
     DataType: Color
-    Value: "#ffffff"
+    Value: "#f0f0f0"
   - Name: RectangleStyles
     Type: BaseObjectType
     Children:

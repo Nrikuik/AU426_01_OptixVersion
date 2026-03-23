@@ -48,7 +48,6 @@ Children:
 - Name: AlarmConfiguration
   Type: PropertyGroup
 - File: UI/UI.yaml
-- File: Model/Model.yaml
 - File: Converters/Converters.yaml
 - File: Alarms/Alarms.yaml
 - File: Recipes/Recipes.yaml
