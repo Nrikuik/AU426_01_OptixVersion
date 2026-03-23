@@ -5,9 +5,11 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
 - Name: SelectedText
+  Id: g=c5ed9aa44ad223ace3715799b8001e33
   Type: BaseDataVariableType
   DataType: String
 - Name: CurrentRobot
+  Id: g=42a0e06dcc8a22f6ef31ce768b729471
   Type: BaseDataVariableType
   DataType: String
 - File: Items/Items.yaml
