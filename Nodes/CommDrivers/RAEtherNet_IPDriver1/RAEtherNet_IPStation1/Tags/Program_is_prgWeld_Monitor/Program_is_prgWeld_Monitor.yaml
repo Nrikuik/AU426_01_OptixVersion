@@ -1,0 +1,825 @@
+Name: 'Program:is_prgWeld_Monitor'
+Type: FolderType
+Children:
+- Name: is_lbln00Main_StorageBits
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln00Main_StorageBits"
+- Name: is_lbln10WTM_80R1_RSTSpotsCounts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln10WTM_80R1_RSTSpotsCounts"
+- Name: is_lbln10WTM_80R1_SpotsNotOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln10WTM_80R1_SpotsNotOk"
+- Name: is_lbln10WTM_80R1_SpotsOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln10WTM_80R1_SpotsOk"
+- Name: is_lbln10WTM_StorageBit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln10WTM_StorageBit"
+- Name: is_lbln20WTM_80R2_RSTSpotsCounts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln20WTM_80R2_RSTSpotsCounts"
+- Name: is_lbln20WTM_80R2_SpotsNotOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln20WTM_80R2_SpotsNotOk"
+- Name: is_lbln20WTM_80R2_SpotsOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln20WTM_80R2_SpotsOk"
+- Name: is_lbln20WTM_StorageBit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln20WTM_StorageBit"
+- Name: is_lbln30WTM_90R1_RSTSpotsCounts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln30WTM_90R1_RSTSpotsCounts"
+- Name: is_lbln30WTM_90R1_SpotsNotOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln30WTM_90R1_SpotsNotOk"
+- Name: is_lbln30WTM_90R1_SpotsOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln30WTM_90R1_SpotsOk"
+- Name: is_lbln30WTM_StorageBit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln30WTM_StorageBit"
+- Name: is_lbln40WTM_100R1_RSTSpotsCounts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln40WTM_100R1_RSTSpotsCounts"
+- Name: is_lbln40WTM_100R1_SpotsNotOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln40WTM_100R1_SpotsNotOk"
+- Name: is_lbln40WTM_100R1_SpotsOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln40WTM_100R1_SpotsOk"
+- Name: is_lbln40WTM_StorageBit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln40WTM_StorageBit"
+- Name: is_lbln50WTM_100R2_RSTSpotsCounts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln50WTM_100R2_RSTSpotsCounts"
+- Name: is_lbln50WTM_100R2_SpotsNotOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln50WTM_100R2_SpotsNotOk"
+- Name: is_lbln50WTM_100R2_SpotsOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln50WTM_100R2_SpotsOk"
+- Name: is_lbln50WTM_StorageBit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln50WTM_StorageBit"
+- Name: is_lbln60WTM_110R1_RSTSpotsCounts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln60WTM_110R1_RSTSpotsCounts"
+- Name: is_lbln60WTM_110R1_SpotsNotOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln60WTM_110R1_SpotsNotOk"
+- Name: is_lbln60WTM_110R1_SpotsOk
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln60WTM_110R1_SpotsOk"
+- Name: is_lbln60WTM_StorageBit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lbln60WTM_StorageBit"
+- Name: is_lblnWTM_AckBadSpot
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lblnWTM_AckBadSpot"
+- Name: is_lblnWTM_Activate
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lblnWTM_Activate"
+- Name: is_lctu10WTM_80R1Spots
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu10WTM_80R1Spots.UN"
+- Name: is_lctu20WTM_80R2Spots
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu20WTM_80R2Spots.UN"
+- Name: is_lctu30WTM_90R1Spots
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu30WTM_90R1Spots.UN"
+- Name: is_lctu40WTM_100R1Spots
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu40WTM_100R1Spots.UN"
+- Name: is_lctu50WTM_100R2Spots
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu50WTM_100R2Spots.UN"
+- Name: is_lctu60WTM_110R1Spots
+  Type: COUNTER
+  DataType: COUNTER
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.PRE"
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.ACC"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.CU"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.CD"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.OV"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:is_prgWeld_Monitor.is_lctu60WTM_110R1Spots.UN"
+- Name: is_ldnt10WTM_80R1Style
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt10WTM_80R1Style"
+- Name: is_ldnt10WTM_80R1StyleBuffer
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt10WTM_80R1StyleBuffer"
+- Name: is_ldnt10WTM_80R1_SpotsNoOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt10WTM_80R1_SpotsNoOKCount"
+- Name: is_ldnt10WTM_80R1_SpotsOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt10WTM_80R1_SpotsOKCount"
+- Name: is_ldnt20WTM_80R2Style
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt20WTM_80R2Style"
+- Name: is_ldnt20WTM_80R2StyleBuffer
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt20WTM_80R2StyleBuffer"
+- Name: is_ldnt20WTM_80R2_SpotsNoOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt20WTM_80R2_SpotsNoOKCount"
+- Name: is_ldnt20WTM_80R2_SpotsOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt20WTM_80R2_SpotsOKCount"
+- Name: is_ldnt30WTM_90R1Style
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt30WTM_90R1Style"
+- Name: is_ldnt30WTM_90R1StyleBuffer
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt30WTM_90R1StyleBuffer"
+- Name: is_ldnt30WTM_90R1_SpotsNoOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt30WTM_90R1_SpotsNoOKCount"
+- Name: is_ldnt30WTM_90R1_SpotsOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt30WTM_90R1_SpotsOKCount"
+- Name: is_ldnt40WTM_100R1Style
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt40WTM_100R1Style"
+- Name: is_ldnt40WTM_100R1StyleBuffer
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt40WTM_100R1StyleBuffer"
+- Name: is_ldnt40WTM_100R1_SpotsNoOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt40WTM_100R1_SpotsNoOKCount"
+- Name: is_ldnt40WTM_100R1_SpotsOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt40WTM_100R1_SpotsOKCount"
+- Name: is_ldnt50WTM_100R2Style
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt50WTM_100R2Style"
+- Name: is_ldnt50WTM_100R2StyleBuffer
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt50WTM_100R2StyleBuffer"
+- Name: is_ldnt50WTM_100R2_SpotsNoOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt50WTM_100R2_SpotsNoOKCount"
+- Name: is_ldnt50WTM_100R2_SpotsOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt50WTM_100R2_SpotsOKCount"
+- Name: is_ldnt60WTM_110R1Style
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt60WTM_110R1Style"
+- Name: is_ldnt60WTM_110R1_SpotsNoOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt60WTM_110R1_SpotsNoOKCount"
+- Name: is_ldnt60WTM_110R1_SpotsOKCount
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:is_prgWeld_Monitor.is_ldnt60WTM_110R1_SpotsOKCount"

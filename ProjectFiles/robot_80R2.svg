@@ -1,33 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 140" width="120" height="140">
-  <!-- Base/pedestal -->
-  <rect x="35" y="120" width="50" height="20" rx="3" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Body/torso -->
-  <rect x="40" y="70" width="40" height="50" rx="5" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Shoulder joint -->
-  <circle cx="60" cy="65" r="12" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Upper arm -->
-  <rect x="52" y="30" width="16" height="35" rx="4" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Elbow joint -->
-  <circle cx="60" cy="28" r="8" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Forearm going right -->
-  <rect x="60" y="22" width="35" height="12" rx="4" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Weld gun / end effector -->
-  <polygon points="95,18 105,10 108,15 98,28 92,30" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Weld tip -->
-  <line x1="105" y1="10" x2="112" y2="3" stroke="#FFD700" stroke-width="2.5"/>
-  
-  <!-- Cable harness -->
-  <path d="M75,22 Q85,5 95,8" fill="none" stroke="#333" stroke-width="1.5"/>
-  
-  <!-- Gun holder on top -->
-  <rect x="48" y="5" width="24" height="18" rx="2" fill="#FFD700" stroke="#333" stroke-width="1"/>
-  <rect x="52" y="0" width="16" height="8" rx="1" fill="#FFD700" stroke="#333" stroke-width="1"/>
-  <text x="60" y="95" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#000">80R2</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400" width="200" height="400">
+  <!-- Robot de soldadura - Vista vertical (gun arriba, base abajo) -->
+
+  <!-- === BASE CIRCULAR === -->
+  <path d="M40,350 L30,345 L25,335 L20,320 L22,310 L30,305 L28,295 L35,285
+           L50,280 L55,275 L65,272 L70,270 L130,270 L135,272 L145,275 L150,280
+           L165,285 L172,295 L170,305 L178,310 L180,320 L175,335 L170,345 L160,350
+           L155,355 L150,360 L145,365 L140,368 L60,368 L55,365 L50,360 L45,355 Z"
+        fill="#E87A1E" stroke="#333" stroke-width="2"/>
+  <ellipse cx="100" cy="320" rx="52" ry="38" fill="#E87A1E" stroke="#333" stroke-width="2"/>
+  <ellipse cx="100" cy="320" rx="42" ry="30" fill="#D4700A" stroke="#333" stroke-width="1.5"/>
+  <!-- Salientes -->
+  <rect x="18" y="305" width="15" height="20" rx="2" fill="#E87A1E" stroke="#333" stroke-width="1.5"/>
+  <rect x="167" y="305" width="15" height="20" rx="2" fill="#E87A1E" stroke="#333" stroke-width="1.5"/>
+  <rect x="25" y="350" width="12" height="15" rx="2" fill="#E87A1E" stroke="#333" stroke-width="1"/>
+  <rect x="163" y="350" width="12" height="15" rx="2" fill="#E87A1E" stroke="#333" stroke-width="1"/>
+  <circle cx="145" cy="345" r="2" fill="#333"/><circle cx="150" cy="348" r="2" fill="#333"/>
+  <circle cx="155" cy="345" r="2" fill="#333"/><circle cx="160" cy="348" r="2" fill="#333"/>
+
+  <!-- === COLUMNA CENTRAL (brazo) === -->
+  <path d="M75,272 L75,160 L68,155 L65,148 L65,140 L72,132 L78,128
+           L78,120 L72,115 L70,108 L75,100 L82,95 L82,85
+           L118,85 L118,95 L125,100 L130,108 L128,115 L122,120 L122,128
+           L128,132 L135,140 L135,148 L132,155 L125,160 L125,272 Z"
+        fill="#E87A1E" stroke="#333" stroke-width="2"/>
+  <rect x="82" y="140" width="36" height="18" rx="2" fill="#D4700A" stroke="#333" stroke-width="1"/>
+  <rect x="85" y="145" width="12" height="8" rx="1" fill="#C06010" stroke="#333" stroke-width="0.8"/>
+  <rect x="103" y="145" width="12" height="8" rx="1" fill="#C06010" stroke="#333" stroke-width="0.8"/>
+  <circle cx="90" cy="200" r="1.5" fill="#333"/><circle cx="90" cy="210" r="1.5" fill="#333"/>
+  <circle cx="110" cy="200" r="1.5" fill="#333"/><circle cx="110" cy="210" r="1.5" fill="#333"/>
+  <line x1="80" y1="170" x2="80" y2="260" stroke="#C06010" stroke-width="1"/>
+  <line x1="88" y1="165" x2="88" y2="265" stroke="#C06010" stroke-width="0.8"/>
+  <line x1="120" y1="170" x2="120" y2="260" stroke="#C06010" stroke-width="1"/>
+
+  <!-- === GUN HOLDER (amarillo) === -->
+  <path d="M72,85 L72,35 L65,32 L60,25 L60,18 L68,12 L75,8
+           L78,5 L122,5 L125,8 L132,12 L140,18 L140,25 L135,32 L128,35 L128,85 Z"
+        fill="#C8B200" stroke="#555" stroke-width="2"/>
+  <rect x="78" y="15" width="44" height="40" rx="3" fill="none" stroke="#555" stroke-width="2"/>
+  <rect x="85" y="20" width="30" height="30" rx="2" fill="#C8B200" stroke="#555" stroke-width="1.5"/>
+  <rect x="82" y="5" width="36" height="12" rx="2" fill="#C8B200" stroke="#555" stroke-width="1.5"/>
+  <rect x="78" y="60" width="44" height="8" rx="1" fill="#C8B200" stroke="#555" stroke-width="1"/>
 </svg>
