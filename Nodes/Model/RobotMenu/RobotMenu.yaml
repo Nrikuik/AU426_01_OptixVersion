@@ -1,0 +1,13 @@
+Name: RobotMenu
+Type: FolderType
+Children:
+- Name: SelectedIndex
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SelectedText
+  Type: BaseDataVariableType
+  DataType: String
+- Name: CurrentRobot
+  Type: BaseDataVariableType
+  DataType: String
+- File: Items/Items.yaml

@@ -1,2 +1,109 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
+Children:
+- Name: BuildRobotPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateModel
+  - Class: Method
+    Name: CreateUI
+- Name: BuildProductionPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateModel
+  - Class: Method
+    Name: CreateUI
+- Name: BuildProductionAyerPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateModel
+  - Class: Method
+    Name: CreateUI
+- Name: BuildModeSelectPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateModel
+  - Class: Method
+    Name: CreateUI
+- Name: BuildConteoPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateModel
+  - Class: Method
+    Name: CreateUI
+- Name: BuildEnetStatusPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateButtons
+  - Class: Method
+    Name: CreateCol1
+  - Class: Method
+    Name: CreateCol2
+  - Class: Method
+    Name: CreateCol3
+  - Class: Method
+    Name: CreateCol4
+  - Class: Method
+    Name: CreatePanel
+- Name: BuildEnetStatusPage2
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateButtons
+  - Class: Method
+    Name: CreateCol1
+  - Class: Method
+    Name: CreateCol2
+  - Class: Method
+    Name: CreateCol3
+  - Class: Method
+    Name: CreatePanel
+- Name: BuildRobotsLayout
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreateRobots
+  - Class: Method
+    Name: CreateRobotsMonitoring
+  - Class: Method
+    Name: CreateStations
+  - Class: Method
+    Name: CreateStationsMonitoring

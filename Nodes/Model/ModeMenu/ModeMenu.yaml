@@ -1,0 +1,15 @@
+Name: ModeMenu
+Type: FolderType
+Children:
+- Name: SelectedIndex
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: SelectedText
+  Id: g=d2f5d0b4c112426a9e607010648c9bf2
+  Type: BaseDataVariableType
+  DataType: String
+- Name: CurrentMode
+  Id: g=2b21999df5fd4cc19dc76041fe885a12
+  Type: BaseDataVariableType
+  DataType: String
+- File: Items/Items.yaml

@@ -1,0 +1,45 @@
+Name: Items
+Id: g=c1f199df14a74dd0bb42825343164fc7
+Type: FolderType
+Children:
+- Name: ROBOT_HOME
+  Id: g=7b7b3cd967944326bcee2b1cba847302
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT HOME"
+- Name: ROBOT_REPAIR
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT REPAIR"
+- Name: ROBOT_TIP_DRESS
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT TIP DRESS"
+- Name: ROBOT_CAP_CHANGE
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT CAP CHANGE"
+- Name: ROBOT_CAPS_CHANGED
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT CAPS CHANGED"
+- Name: ROBOT_MASTERING_SWITCH
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT MASTERING SWITCH"
+- Name: ROBOT_BRAKE_TEST
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT BRAKE TEST"
+- Name: START_SEALER_IF_PRESENT
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "START SEALER (IF PRESENT)"
+- Name: ROBOT_TO_PREHEATING
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT TO PREHEATING"
+- Name: ROBOT_PREHEATED
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "ROBOT PREHEATED"

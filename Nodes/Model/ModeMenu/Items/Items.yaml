@@ -1,0 +1,52 @@
+Name: Items
+Id: g=4cbd1a7751824ba18d1cf9710ecebe2a
+Type: FolderType
+Children:
+- Name: EN_PROCESO_SOLO_PANEL_2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "EN PROCESO (SOLO PANEL 2)"
+- Name: PURGA_SOLO_PANEL_2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "PURGA (SOLO PANEL 2)"
+- Name: TEST_DE_LAMPARAS
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TEST DE LAMPARAS"
+- Name: SELECCION_UNA_PIEZA_SOLO_PANEL_2
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECCION UNA PIEZA (SOLO PANEL 2)"
+- Name: TODOS_RBTS_INICIO
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS RBTS INICIO"
+- Name: TODOS_RBTS_A_REPARAR
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS RBTS A REPARAR"
+- Name: TODOS_ROBOTS_A_TIP_DRESS
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS ROBOTS A TIP DRESS"
+- Name: TODOS_RBTS_CAMBIAR_CAP
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS RBTS CAMBIAR CAP"
+- Name: TODOS_CAPS_CAMBIADO
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS CAPS CAMBIADO"
+- Name: TODOS_RBTS_MASTER_REF_SWITCH
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS RBTS MASTER REF. SWITCH"
+- Name: TODOS_ROBOT_PRECALENTAMIENTO
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "TODOS ROBOT PRECALENTAMIENTO"
+- Name: PRECALENTAMIENTO_ROBOTS_LISTOS
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "PRECALENTAMIENTO ROBOTS LISTOS"

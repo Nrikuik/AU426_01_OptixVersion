@@ -5,3 +5,8 @@ Children:
   Id: g=4384d91237a4b66d36ca79160224c8e0
   Type: BaseDataVariableType
   DataType: Boolean
+- File: RobotMenu/RobotMenu.yaml
+- File: Production/Production.yaml
+- File: ProductionAyer/ProductionAyer.yaml
+- File: ModeMenu/ModeMenu.yaml
+- File: ConteoPuntos/ConteoPuntos.yaml
