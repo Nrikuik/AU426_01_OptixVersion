@@ -1,0 +1,21 @@
+Name: DialogBox
+Type: FolderType
+Children:
+- Name: DialogBox1
+  Id: g=72dded3681ab41871f66176214b9f3e1
+  Supertype: Dialog
+  ReferenceType: HasComponent
+  Children:
+  - Class: Reference
+    Target: ns=3;i=519
+    Direction: Forward
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
