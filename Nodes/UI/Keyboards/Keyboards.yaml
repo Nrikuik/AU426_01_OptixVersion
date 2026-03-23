@@ -1,2 +1,4 @@
 Name: ns=4;Keyboards
 Type: KeyboardsCategoryFolder
+Children:
+- File: Model/Model.yaml
