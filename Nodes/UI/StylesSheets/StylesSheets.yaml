@@ -503,6 +503,13 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         Value: 1.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#b3b3b3"
   - Name: ScreenStyles
     Type: BaseObjectType
     Children:
