@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Base -->
+  <rect x="25" y="82" width="40" height="16" rx="3" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Body -->
+  <rect x="30" y="45" width="30" height="37" rx="4" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Shoulder -->
+  <circle cx="45" cy="42" r="9" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Arm reaching forward -->
+  <rect x="45" y="36" width="30" height="11" rx="3" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Elbow -->
+  <circle cx="75" cy="41" r="6" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Forearm down -->
+  <rect x="71" y="41" width="10" height="28" rx="3" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Weld tip -->
+  <line x1="76" y1="69" x2="80" y2="78" stroke="#FFD700" stroke-width="2"/>
+  
+  <!-- Top holder -->
+  <rect x="35" y="25" width="16" height="14" rx="2" fill="#FFD700" stroke="#333" stroke-width="1"/>
+  <text x="45" y="72" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#000">80R3</text>
+</svg>

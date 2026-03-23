@@ -49,6 +49,7 @@ Children:
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
+- File: GraphicElements/GraphicElements.yaml
 - File: Converters/Converters.yaml
 - File: Alarms/Alarms.yaml
 - File: Recipes/Recipes.yaml

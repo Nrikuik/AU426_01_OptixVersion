@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 120" width="140" height="120">
+  <!-- Base/pedestal -->
+  <rect x="10" y="100" width="50" height="18" rx="3" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Body/torso -->
+  <rect x="18" y="55" width="35" height="45" rx="5" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Shoulder joint -->
+  <circle cx="35" cy="50" r="10" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Upper arm reaching forward -->
+  <rect x="35" y="42" width="45" height="14" rx="4" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Elbow joint -->
+  <circle cx="80" cy="49" r="7" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Forearm angled down -->
+  <rect x="78" y="49" width="12" height="40" rx="4" fill="#D48C28" stroke="#333" stroke-width="1.5" transform="rotate(-15, 84, 49)"/>
+  
+  <!-- Weld gun -->
+  <polygon points="88,85 95,90 100,85 95,75" fill="#D48C28" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Weld tip / spark -->
+  <line x1="95" y1="90" x2="100" y2="98" stroke="#FFD700" stroke-width="2.5"/>
+  
+  <!-- Cable from shoulder -->
+  <path d="M35,40 Q50,25 70,30" fill="none" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Gun holder on top -->
+  <rect x="22" y="35" width="18" height="15" rx="2" fill="#FFD700" stroke="#333" stroke-width="1"/>
+  <rect x="26" y="28" width="10" height="9" rx="1" fill="#FFD700" stroke="#333" stroke-width="1"/>
+  <text x="35" y="78" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#000">100R1</text>
+</svg>

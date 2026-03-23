@@ -63,6 +63,161 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/AU426_01_OptixVersion@BrowseName"
+  - Name: MainWindowMonitoring
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: AlarmBanner
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Alarm_Banner"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=3;i=478
+        Direction: Forward
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: LocalMessageDisplay
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/AU426_01_OptixVersion/UI/Screens/LocalMesageDisplay"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=3;i=478
+        Direction: Forward
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: MainScrean
+      Type: PanelLoader
+      Children:
+      - Name: Panel
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/AU426_01_OptixVersion/UI/Screens/MainMonitoring"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Class: Reference
+        Target: ns=3;i=478
+        Direction: Forward
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
   - Name: MainWindow
     Type: ColumnLayout
     Children:
@@ -282,6 +437,20 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/AU426_01_OptixVersion/Model/PanelVisible"
+- Name: Main2
+  Id: g=e06868bfcc8fee623374dc3eb4d17f20
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
   - Name: MainWindowMonitoring
     Type: ColumnLayout
     Children:
@@ -305,92 +474,6 @@ Children:
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
-    - Name: AlarmBanner
-      Type: PanelLoader
-      Children:
-      - Name: Panel
-        Type: NodePointer
-        DataType: NodeId
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: CurrentPanel
-        Type: NodePointer
-        DataType: NodeId
-        AccessLevel: Read
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
-      - Class: Reference
-        Target: ns=3;i=478
-        Direction: Forward
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: Visible
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: true
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
-    - Name: LocalMessageDisplay
-      Type: PanelLoader
-      Children:
-      - Name: Panel
-        Type: NodePointer
-        DataType: NodeId
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: CurrentPanel
-        Type: NodePointer
-        DataType: NodeId
-        AccessLevel: Read
-        Children:
-        - Name: Kind
-          Type: PropertyType
-          DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
-      - Class: Reference
-        Target: ns=3;i=478
-        Direction: Forward
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 300.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 70.0
-      - Name: Visible
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-        Value: true
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 3
     - Name: MainScrean
       Type: PanelLoader
       Children:
@@ -433,6 +516,94 @@ Children:
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: LocalMessageDisplay
+      Type: PanelLoader
+      Children:
+      - Class: Reference
+        Target: ns=3;i=478
+        Direction: Forward
+      - Name: Panel
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/AU426_01_OptixVersion/UI/Screens/LocalMesageDisplay"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 70.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: AlarmBanner
+      Type: PanelLoader
+      Children:
+      - Class: Reference
+        Target: ns=3;i=478
+        Direction: Forward
+      - Name: Panel
+        Type: NodePointer
+        DataType: NodeId
+        Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Alarm_Banner"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: CurrentPanel
+        Type: NodePointer
+        DataType: NodeId
+        AccessLevel: Read
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: true
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
 - File: Screens/Screens.yaml
@@ -735,7 +906,6 @@ Children:
     - Name: DisplayValuePath
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Item
       Type: Alias
       DataType: NodeId
@@ -979,6 +1149,7 @@ Children:
     - Class: Method
       Name: MoveUp
 - Name: ProductionPanel
+  Id: g=2dba17de72c3a0f3b0f0286866c5707f
   Type: Panel
   Children:
   - Name: Width
@@ -9584,7 +9755,13 @@ Children:
     - Name: DisplayValuePath
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Item
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
   - Name: LblModoActual
     Type: Label
     Children:
@@ -11922,6 +12099,7 @@ Children:
       DataType: BaseDataType
       Value: {"Type":6,"Body":700}
 - Name: EnetStatusPanel
+  Id: g=ec67810f9c765587d805b44f4136c31a
   Type: Panel
   Children:
   - Name: Width
@@ -18582,6 +18760,80 @@ Children:
       Type: BaseDataVariableType
       DataType: BaseDataType
       Value: {"Type":1,"Body":true}
+    - Name: MouseClickEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../../../NativePresentationEngine/StartWindow/MainWindow/MainScrean@NodeId"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                Value: 2
+          - Name: ns=2;Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ChangePanel"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: NewPanel
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
+              Value: "/Objects/AU426_01_OptixVersion/UI/EnetStatusPage2"
+            - Name: AliasNode
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Description: {"NamespaceIndex":3,"TextId":"ChangePanelAliasNodeDescription"}
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
   - Name: StatusBox_0
     Type: Rectangle
     Children:
@@ -19014,6 +19266,7 @@ Children:
       DataType: BaseDataType
       Value: {"Type":6,"Body":700}
 - Name: EnetStatusPage2
+  Id: g=4d8a0dcbceab7cdba43ea39f3162d007
   Type: Panel
   Children:
   - Name: Width
