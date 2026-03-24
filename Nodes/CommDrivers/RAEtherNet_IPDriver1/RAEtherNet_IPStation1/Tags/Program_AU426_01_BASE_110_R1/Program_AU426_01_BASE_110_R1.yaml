@@ -82,6 +82,7 @@ Children:
     DataType: String
     Value: "Program:AU426_01_BASE_110_R1.GM"
 - Name: HMI4_Depositar_Pieza
+  Id: g=9dd15ce1e0fb48141285bbf26cbc9799
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:
@@ -90,6 +91,7 @@ Children:
     DataType: String
     Value: "Program:AU426_01_BASE_110_R1.HMI4_Depositar_Pieza"
 - Name: HMI4_Tomar_Pieza
+  Id: g=1c66419e249b6723ed9347461bb6f0a7
   Type: RAEtherNetIPTag
   DataType: Boolean
   Children:

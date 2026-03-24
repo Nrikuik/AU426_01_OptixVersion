@@ -91,10 +91,10 @@ Project:
    Module: FTOptix.CommunicationDriver.Net
    Version: 4.0
  Statistics:
-  TotalNodeCount: 247377
-  Objects: 5083
-  ObjectTypes: 75
-  Variables: 241944
+  TotalNodeCount: 246637
+  Objects: 5060
+  ObjectTypes: 74
+  Variables: 241228
   VariableTypes: 106
   DataTypes: 106
   Methods: 63
