@@ -8,3 +8,7 @@ Children:
 - File: ConteoPuntos/ConteoPuntos.yaml
 - File: MainColors/MainColors.yaml
 - File: Configuration/Configuration.yaml
+- Name: Variable1
+  Id: g=91cfec92e7baad370b27e3d73975d377
+  Type: BaseDataVariableType
+  DataType: Boolean

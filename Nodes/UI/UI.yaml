@@ -756,50 +756,6 @@ Children:
       - Name: TextHorizontalAlignment
         Type: BaseDataVariableType
         DataType: TextHorizontalAlignment
-    - Name: BtnMain
-      Type: Button
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 120.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 55.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1070.0
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"MAIN"}
-      - Name: BackgroundColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#0000cc"
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#ffffff"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-      - Name: WordWrap
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: true
     - Name: LblClock
       Type: Label
       Children:
@@ -5235,3 +5191,73 @@ Children:
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
+    - Name: MainButton1
+      Type: MainButton
+      Children:
+      - Name: MouseClickEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{MainScrean}@NodeId"
+            - Name: Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Main"
+              - Name: AliasNode
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16

@@ -125,6 +125,72 @@ Children:
           DataType: Boolean
           ModellingRule: Optional
           Value: true
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Toggle"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"ToggleVariableToModifyDescription"}
+                  Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/PB/WELD"
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"ToggleArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
       - Name: Button_PICKING IN ST110
         Type: Button
         Children:
@@ -269,7 +335,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 486.0
+          Value: 490.0
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -279,33 +345,20 @@ Children:
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
-          Value: "#e40620"
-        - Name: DropdownButton1
-          Type: DropDownButton
+          Value: "#9a0213"
+        - Name: Label1
+          Type: Label
           Children:
-          - Name: Panel
-            Type: NodePointer
-            DataType: NodeId
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            ModellingRule: Optional
-            Value: {"LocaleId":"en-US","Text":"Repeat Point 110R1"}
-          - Name: BackgroundColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-            Value: "#eb001b"
           - Name: TextColor
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
             Value: "#ffffff"
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#eb001b"
       - Name: Button1
         Type: Button
         Children:
@@ -1118,8 +1171,159 @@ Children:
               DataType: UInt16
       - Name: Button_START1
         Type: Button_START
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/PB/START_ROBOTS"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  ValueRank: ScalarOrOneDimension
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 150.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
       - Name: Button_STOP1
         Type: Button_STOP
+        Children:
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ns=2;ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: "/Objects/Commands/VariableCommands"
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: ns=2;Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Set"
+              - Name: InputArguments
+                Type: BaseObjectType
+                Children:
+                - Name: VariableToModify
+                  Type: BaseDataVariableType
+                  DataType: VariablePointer
+                  Description: {"NamespaceIndex":2,"TextId":"SetVariableToModifyDescription"}
+                  Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/PB/STOP_ROBOTS"
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Description: {"NamespaceIndex":2,"TextId":"SetValueDescription"}
+                  Value: true
+                - Name: ArrayIndex
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Description: {"NamespaceIndex":2,"TextId":"SetArrayIndexDescription"}
+                  ValueRank: ScalarOrOneDimension
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
     - Name: Mode
       Type: ColumnLayout
       Children:
@@ -1166,6 +1370,19 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 3
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/AUTO"
+        - Name: Appearance
+          Type: BaseVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "accent"
       - Name: ButtonManual
         Type: Button
         Children:
@@ -1189,6 +1406,19 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 3
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/MAN@Value"
+        - Name: Appearance
+          Type: BaseVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "accent"
       - Name: ButtonRun
         Type: Button
         Children:
@@ -1212,6 +1442,19 @@ Children:
           DataType: VerticalAlignment
           ModellingRule: Optional
           Value: 3
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/RUN_CYCLE"
+        - Name: Appearance
+          Type: BaseVariableType
+          DataType: String
+          ModellingRule: Optional
+          Value: "accent"
     - Name: Current
       Type: RowLayout
       Children:
@@ -1437,27 +1680,28 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 1.0
-      - Name: DropdownButton1
-        Type: DropDownButton
+      - Name: TextBox1
+        Type: TextBox
         Children:
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
         - Name: Text
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/CELL_HOME_NO_PARTS@Value"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Cell Home"}
-        - Name: Visible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-          Value: true
+          Value: 110.0
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -1472,102 +1716,22 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 5.0
+          Value: 3.0
         - Name: TopMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 5.0
+          Value: 3.0
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 5.0
+          Value: 3.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 5.0
-        - Name: BackgroundColor
-          Type: BaseDataVariableType
-          DataType: Color
-          ModellingRule: Optional
-          Value: "#f7f7f7"
-        - Name: MouseClickEventHandler1
-          Type: EventHandler
-          Children:
-          - Name: ListenEventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-          - Name: MethodsToCall
-            Type: BaseObjectType
-            Children:
-            - Name: MethodContainer1
-              Type: BaseObjectType
-              Children:
-              - Name: ns=2;ObjectPointer
-                Type: NodePointer
-                DataType: NodeId
-                Children:
-                - Name: Kind
-                  Type: PropertyType
-                  DataType: NodeId
-                  Value: "/Types/ObjectTypes/BaseObjectType"
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{MainScrean}@NodeId"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: ns=2;Method
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "ChangePanel"
-              - Name: InputArguments
-                Type: BaseObjectType
-                Children:
-                - Name: NewPanel
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Description: {"NamespaceIndex":3,"TextId":"ChangePanelNewPanelDescription"}
-                  Value: "/Objects/AU426_01_OptixVersion/UI/Screens/dCELL_STATUS"
-                - Name: AliasNode
-                  Type: BaseDataVariableType
-                  DataType: NodeId
-                  Description: {"NamespaceIndex":3,"TextId":"ChangePanelAliasNodeDescription"}
-                  ValueRank: ScalarOrOneDimension
-          - Name: EventArguments
-            Type: MouseClickEvent
-            Children:
-            - Name: EventId
-              Type: PropertyType
-              DataType: ByteString
-            - Name: EventType
-              Type: PropertyType
-              DataType: NodeId
-            - Name: SourceNode
-              Type: PropertyType
-              DataType: NodeId
-            - Name: SourceName
-              Type: PropertyType
-              DataType: String
-            - Name: Time
-              Type: PropertyType
-              DataType: UtcTime
-            - Name: ReceiveTime
-              Type: PropertyType
-              DataType: UtcTime
-            - Name: Message
-              Type: PropertyType
-              DataType: LocalizedText
-            - Name: Severity
-              Type: PropertyType
-              DataType: UInt16
+          Value: 3.0
     - Name: Robots1
       Type: Rectangle
       Children:
@@ -6063,22 +6227,6 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 4.0
-      - Name: DropdownButton1
-        Type: DropDownButton
-        Children:
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"ST30-70"}
       - Name: MouseDownEventHandler1
         Type: EventHandler
         Children:
@@ -6154,6 +6302,24 @@ Children:
           - Name: Severity
             Type: PropertyType
             DataType: UInt16
+      - Name: Label1
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"ST 30-70"}
+        - Name: TextColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#f0f0f0"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#007cba"
     - Name: Cell_Information
       Type: ColumnLayout
       Children:
@@ -7683,6 +7849,38 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 14.0
+    - Name: TextBox1
+      Type: TextBox
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/AU426_01_OptixVersion/Model/Variable1"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 950.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
 - Name: s5000_NET_STATUS
   Id: g=720b5d19e4d3a2f829d5ead906759bbc
   Supertype: Screen
@@ -9318,8 +9516,26 @@ Children:
     Children:
     - Name: ButtonAutomatic
       Type: Button
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/AUTO"
     - Name: ButtonManual
       Type: Button
+      Children:
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/MAN"
     - Name: ButtonRun
       Type: Button
       Children:
@@ -9328,6 +9544,14 @@ Children:
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Dry Cycle"}
+      - Name: Enabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/RUN_CYCLE"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -13512,6 +13736,75 @@ Children:
     Children:
     - Name: Button_START1
       Type: Button_START
+      Children:
+      - Name: MouseClickEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Value: "/Objects/Commands/VariableCommands"
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Set"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: VariableToModify
+                Type: BaseDataVariableType
+                DataType: VariablePointer
+                Value: "/Objects/AU426_01_OptixVersion/Model/Variable1"
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: ArrayIndex
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
     - Name: Button_STOP1
       Type: Button_STOP
     - Name: MainButton1
@@ -24376,8 +24669,26 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"#"}
+      Children:
+      - Name: StringFormatter1
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"","Text":"{0:d}"}
+        - Name: ns=2;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/SCRN_NO@Value"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -33503,12 +33814,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 700.0
+        Value: 630.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1185.0
+        Value: 1190.0
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -33534,54 +33845,76 @@ Children:
         DataType: String
         ModellingRule: Optional
         Value: "Bordered Circular"
-    - Name: BtnInicio
-      Type: Button
+    - Name: MainButton1
+      Type: MainButton
       Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 75.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 750.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1180.0
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"INICIO"}
-      - Name: BackgroundColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#0000cc"
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        ModellingRule: Optional
-        Value: 400
+      - Name: MouseClickEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{MainScrean}@NodeId"
+            - Name: Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Main"
+              - Name: AliasNode
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -37445,12 +37778,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 700.0
+        Value: 610.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 1185.0
+        Value: 1180.0
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -37476,54 +37809,76 @@ Children:
         DataType: String
         ModellingRule: Optional
         Value: "Bordered Circular"
-    - Name: BtnInicio
-      Type: Button
+    - Name: MainButton1
+      Type: MainButton
       Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 75.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 750.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1180.0
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"INICIO"}
-      - Name: BackgroundColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#0000cc"
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: FontWeight
-        Type: BaseDataVariableType
-        DataType: FontWeightEnum
-        ModellingRule: Optional
-        Value: 400
+      - Name: MouseClickEventHandler1
+        Type: EventHandler
+        Children:
+        - Name: ListenEventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+        - Name: MethodsToCall
+          Type: BaseObjectType
+          Children:
+          - Name: MethodContainer1
+            Type: BaseObjectType
+            Children:
+            - Name: ObjectPointer
+              Type: NodePointer
+              DataType: NodeId
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: "/Types/ObjectTypes/BaseObjectType"
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{MainScrean}@NodeId"
+            - Name: Method
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "ChangePanel"
+            - Name: InputArguments
+              Type: BaseObjectType
+              Children:
+              - Name: NewPanel
+                Type: BaseDataVariableType
+                DataType: NodeId
+                Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Main"
+              - Name: AliasNode
+                Type: BaseDataVariableType
+                DataType: NodeId
+                ValueRank: ScalarOrOneDimension
+        - Name: EventArguments
+          Type: MouseClickEvent
+          Children:
+          - Name: EventId
+            Type: PropertyType
+            DataType: ByteString
+          - Name: EventType
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceNode
+            Type: PropertyType
+            DataType: NodeId
+          - Name: SourceName
+            Type: PropertyType
+            DataType: String
+          - Name: Time
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: ReceiveTime
+            Type: PropertyType
+            DataType: UtcTime
+          - Name: Message
+            Type: PropertyType
+            DataType: LocalizedText
+          - Name: Severity
+            Type: PropertyType
+            DataType: UInt16
 - Class: Reference
   Type: HasComponent
   Target: g=1e0799d29dff7abc7d000764186f9572
@@ -44949,6 +45304,76 @@ Children:
         DataType: FontWeightEnum
         ModellingRule: Optional
         Value: 400
+  - Name: MainButton1
+    Type: MainButton
+    Children:
+    - Name: MouseClickEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{MainScrean}@NodeId"
+          - Name: Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ChangePanel"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: NewPanel
+              Type: BaseDataVariableType
+              DataType: NodeId
+              Value: "/Objects/AU426_01_OptixVersion/UI/Screens/Main"
+            - Name: AliasNode
+              Type: BaseDataVariableType
+              DataType: NodeId
+              ValueRank: ScalarOrOneDimension
+      - Name: EventArguments
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
 - Name: RobotPanel
   Id: g=acb3751a7f5bd83d35bca2f39954bc3f
   Supertype: Screen
@@ -50776,23 +51201,8 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 4.0
-      - Name: DropdownButton1
-        Type: DropDownButton
-        Children:
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"ST80-110"}
-- File: Objetos/Objetos.yaml
+      - Name: Label1
+        Type: Label
 - Name: SecurityAuto
   Id: g=8ae2aa1c8bd6f361797c2e52fa2006c2
   Supertype: Screen
@@ -55950,3 +56360,4 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 37.0
+- File: Objetos/Objetos.yaml
