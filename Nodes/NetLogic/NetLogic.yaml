@@ -116,3 +116,14 @@ Children:
     Value: 180
   - Class: Method
     Name: CreateUI
+- Name: BuildJobDataPanel
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CreatePanel
+  - Class: Method
+    Name: CreateTables

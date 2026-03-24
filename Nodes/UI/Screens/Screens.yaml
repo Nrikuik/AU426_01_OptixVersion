@@ -55403,7 +55403,6 @@ Children:
           DataType: LocalizedText
           ModellingRule: Optional
           Value: {"LocaleId":"en-US","Text":"ST80-110"}
-- File: Objetos/Objetos.yaml
 - Name: ProductionPanel1
   Id: g=1e0799d29dff7abc7d000764186f9572
   Supertype: Screen
@@ -60230,3 +60229,3155 @@ Children:
         Type: BaseDataVariableType
         DataType: BaseDataType
         Value: {"Type":12,"Body":"Bordered Circular"}
+- Name: JobDataPanel
+  Id: g=5135cff1f233402d87a9678ef533b482
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: JobDataPanel
+    Type: Panel
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1280.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1024.0
+    - Name: Background
+      Type: Rectangle
+      Children:
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4290822336}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+    - Name: JobDataBox
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 700.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 170.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4288716960}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+    - Name: LblJobTitle
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 700.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 170.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"CURRENT JOB DATA"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":18}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: LblStyleTitle
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 22.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 420.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":14}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleValBox
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 28.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 105.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 440.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: LblStyleVal
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 22.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 108.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 440.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"**"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: LblOptionTitle
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 22.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 550.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":14}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptionValBox
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 28.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 105.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 565.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: LblOptionVal
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 60.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 22.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 108.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 565.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"**"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: TableBox
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 750.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 380.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 145.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4288716960}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+    - Name: LblStyleInfo
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 25.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 185.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 200.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE INFORMATION"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":14}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: LblOptionInfo
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 25.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 185.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 600.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION INFORMATION"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":14}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_0
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"01"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_0
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_0
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"AU426 ESTILO 1"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_1
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"02"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_1
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"AU436 ESTILO 2"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_2
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 286.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"03"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_2
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 286.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_2
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 286.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-3"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_3
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 319.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"04"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_3
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 319.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_3
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 319.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-4"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_4
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 352.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"05"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_4
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 352.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_4
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 352.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-5"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_5
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 385.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"06"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_5
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 385.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_5
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 385.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-6"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_6
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 418.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"07"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_6
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 418.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_6
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 418.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-7"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_7
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 451.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"08"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_7
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 451.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_7
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 451.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-8"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_8
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"09"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_8
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_8
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-9"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleNum_9
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 517.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 175.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"10"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleCell_9
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 517.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 207.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: StyleText_9
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 517.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 212.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"STYLE PART DATA-10"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_0
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"01"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_0
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_0
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 220.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"Standard"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_1
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"02"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_1
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 253.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-2"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_2
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 286.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"03"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_2
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 286.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_2
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 286.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-3"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_3
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 319.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"04"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_3
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 319.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_3
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 319.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-4"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_4
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 352.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"05"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_4
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 352.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_4
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 352.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-5"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_5
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 385.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"06"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_5
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 385.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_5
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 385.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-6"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_6
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 418.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"07"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_6
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 418.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_6
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 418.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-7"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_7
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 451.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"08"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_7
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 451.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_7
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 451.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-8"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_8
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"09"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_8
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_8
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 484.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-9"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptNum_9
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 517.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 535.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"10"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":2}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptCell_9
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 290.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 517.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 567.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278242559}
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: OptText_9
+      Type: Label
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 280.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 517.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 572.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"OPTION PART DATA-10"}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190080}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":11}
+      - Name: TextHorizontalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":0}
+      - Name: TextVerticalAlignment
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":1}
+    - Name: BtnNavCircle
+      Type: Button
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 65.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 65.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 880.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1170.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"▲"}
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190284}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4294967295}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":22}
+      - Name: Appearance
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":12,"Body":"Bordered Circular"}
+    - Name: BtnInicio
+      Type: Button
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 75.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 40.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 955.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1165.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ModellingRule: Optional
+        Value: {"LocaleId":"en-US","Text":"INICIO"}
+      - Name: BackgroundColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4278190284}
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":7,"Body":4294967295}
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":12}
+      - Name: FontWeight
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        Value: {"Type":6,"Body":700}
+- File: Objetos/Objetos.yaml
