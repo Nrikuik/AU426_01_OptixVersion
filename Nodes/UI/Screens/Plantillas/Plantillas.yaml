@@ -489,7 +489,7 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
+        Value: "#0fafff"
         Children:
         - Name: KeyValueConverter1
           Type: ValueMapConverter
@@ -503,6 +503,30 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "/Objects/AU426_01_OptixVersion/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/gHMI4/IND/RBTS_RUN"
+          - Name: Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#0fafff"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: Boolean
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                Value: "#b3b3b3"
       - Name: MouseDownEventHandler1
         Type: EventHandler
         Children:
@@ -577,7 +601,7 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
+        Value: "#0fafff"
         Children:
         - Name: KeyValueConverter1
           Type: ValueMapConverter
