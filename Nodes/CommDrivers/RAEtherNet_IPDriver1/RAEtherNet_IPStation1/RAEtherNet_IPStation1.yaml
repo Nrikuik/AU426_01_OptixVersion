@@ -121,3 +121,7 @@ Children:
   Children:
   - File: DataTypes/DataTypes.yaml
   - File: VariableTypes/VariableTypes.yaml
+- Name: UseAlarms
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true

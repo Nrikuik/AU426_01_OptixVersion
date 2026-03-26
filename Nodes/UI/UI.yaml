@@ -333,6 +333,11 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
     - Name: MainScrean
       Type: PanelLoader
       Children:
